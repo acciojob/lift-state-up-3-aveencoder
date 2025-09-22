@@ -9,7 +9,7 @@ const App = () => {
       setSelectedOption(change)
   }
   return (
-    <div>
+    <div className="parent">
         {/* Do not remove the main div */}
         <h1 style={{margin:"50px"}}>Parent Component</h1>
         <ChildChildern1  onChange={handleClick}/>
